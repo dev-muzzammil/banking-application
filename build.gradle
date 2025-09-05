@@ -39,6 +39,7 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
     implementation 'org.liquibase:liquibase-core'
+    implementation 'me.paulschwarz:spring-dotenv:3.0.0'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
